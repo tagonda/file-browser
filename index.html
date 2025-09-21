@@ -5,12 +5,13 @@
     <meta name="viewport" content="width=device-width, initial-scale=1">
     <meta name="color-scheme" content="light dark">
     <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/@picocss/pico@2/css/pico.min.css">
-    <title>Hello world!</title>
+    <title>File Browser</title>
   </head>
   <body>
+
     <main class="container">
-      <section id="tables">
-        <h2>Table</h2>
+      <section id="table">
+        <h2>My Terrific HTML Table</h2>
         <div class="overflow-auto">
           <table class="striped">
             <thead>
@@ -23,35 +24,47 @@
             </thead>
             <tbody>
               <tr>
-                <td><img src="./icons/file-image-regular-full.svg"></img></td>
+                <td><img src="icons/file-image-regular-full.svg"></img></td>
                 <td><a href="cat.gif">cat.gif</a></td>
                 <td>Gif</td>
                 <td>478 KB</td>
               </tr>
               <tr>
-                <td><img src="https://fontawesome.com/icons/file-code?f=classic&s=regular"></img></td>
+                <td><img src="icons/file-code-regular-full.svg"></img></td>
                 <td><a href="hello-world.html">hello-world.html</a></td>
                 <td>HTML</td>
                 <td>123 bytes</td>
               </tr>
               <tr>
-                <td><img src="https://fontawesome.com/icons/file-zipper?f=classic&s=regular"></img></td>
+                <td><img src="icons/file-zipper-regular-full.svg"></img></td>
                 <td><a href="index.json">index.json</a></td>
                 <td>JSON</td>
                 <td>30 bytes</td>
               </tr>
               <tr>
-                <td><img src="https://fontawesome.com/icons/file-lines?f=classic&s=regular"></img></td>
+                <td><img src="icons/file-lines-regular-full.svg"></img></td>
                 <td><a href="index.txt">index.txt</a></td>
                 <td>Text</td>
                 <td>12 bytes</td>
               </tr>
               <tr>
-                <td><img src="https://fontawesome.com/icons/file-powerpoint?f=classic&s=regular"></img></td>
+                <td><img src="icons/file-powerpoint-regular-full.svg"></img></td>
                 <td><a href="index.pdf">index.pdf</a></td>
                 <td>PDF</td>
                 <td>1 KB</td>
               </tr>
+            </tbody>
+          </table>
+        </div>
+      </section>
+
+      <section id="list">
+        <h3>List</h3>
+        <ul>
+          <li>The links do not open in a new tab/window.</li>
+          <li>The PDF opens in a PDF viewer.</li>
+          <li>All the files look like they normally do when I view them on my computer outside of the browser.</li>
+        </ul>
       </section>
     </main>
   </body>
